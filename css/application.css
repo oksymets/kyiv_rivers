@@ -281,6 +281,16 @@ img.black-carto  {
 /*===============*/
 
 
+.carousel {
+  margin: 25px 0;
+}
+
+
+.mfp-bottom-bar {
+  font-family: "Open Sans", Arial;
+  font-size: 30px;
+  padding-left:10px;
+}
 
 
 /*# sourceMappingURL=application.css.map */
