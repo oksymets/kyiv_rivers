@@ -173,12 +173,12 @@ ul {
 td, th {
   font-size: 12px; }
 
-img {
+img.black-carto  {
   margin-top: 3em;
   margin-bottom: 3em; }
 
 .quote {
-  margin-top: 13em;
+  margin-top: 2em;
   margin-bottom: 1em;
   font-size: 2.3em;
   font-family: 'Open Sans Condensed', sans-serif;
@@ -262,6 +262,25 @@ img {
   border-bottom: 1px dashed;
   display: inline-block;
 }
+
+
+/*=========Magnific Popup======*/
+  /* padding-bottom and top for image */
+.mfp-no-margins img.mfp-img {
+  padding: 0;
+}
+/* position of shadow behind the image */
+.mfp-no-margins .mfp-figure:after {
+  top: 0;
+  bottom: 0;
+}
+/* padding for main container */
+.mfp-no-margins .mfp-container {
+  padding: 0;
+}
+/*===============*/
+
+
 
 
 /*# sourceMappingURL=application.css.map */
