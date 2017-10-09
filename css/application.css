@@ -288,8 +288,12 @@ img.black-carto  {
 
 .mfp-bottom-bar {
   font-family: "Open Sans", Arial;
-  font-size: 30px;
+  font-size: 3em;
   padding-left:10px;
+}
+
+.top-cover {
+  text-align: center;
 }
 
 
