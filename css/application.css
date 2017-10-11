@@ -330,13 +330,6 @@ img.black-carto  {
       font-size: 14px}
   }
 
-
-@media (min-width: 400px) {
-  .mobile .image-popup-no-margins .photo-text {
-    width: 100px;
-  }
-}
-
 .top-cover img {
   margin-top: 0;
   width: 100%;
@@ -347,5 +340,14 @@ img.black-carto  {
   line-height: 1.4em;
 }
 
+.no-paddings {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.container-fluid {
+  padding-left: 15px;
+  padding-right: 15px;
+}
 
 /*# sourceMappingURL=application.css.map */
