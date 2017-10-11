@@ -285,15 +285,66 @@ img.black-carto  {
   margin: 25px 0;
 }
 
-
 .mfp-bottom-bar {
-  font-family: "Open Sans", Arial;
+  font-family: "Open Sans", Arial, sans-serif;
   font-size: 3em;
   padding-left:10px;
 }
 
 .top-cover {
   text-align: center;
+}
+
+.top-cover .subtitle {
+  font-size: 20px;
+  line-height: 1.4;
+  color: white;
+}
+
+.top-cover h1 {
+  line-height: 1.4;
+  font-size: 6em;
+  color: white;  }
+  @media (max-width: 900px) {
+    .top-cover h1 {
+      font-size: 4em; } }
+  @media (max-width: 630px) {
+    .top-cover h1 {
+      font-size: 3em; } }
+  @media (max-width: 400px) {
+    .top-cover h1 {
+      font-size: 2em; }
+    }
+
+.header-text-wrapper {
+  position: absolute;
+  top: 200px;
+  letter-spacing: 1.5pt; }
+  @media (max-width: 900px) {
+  .header-text-wrapper {
+    top: 150px; } }
+  @media (max-width: 720px) {
+    .header-text-wrapper {
+      top: 100px;  }
+    .top-cover .subtitle {
+      font-size: 14px}
+  }
+
+
+@media (min-width: 400px) {
+  .mobile .image-popup-no-margins .photo-text {
+    width: 100px;
+  }
+}
+
+.top-cover img {
+  margin-top: 0;
+  width: 100%;
+}
+
+.small-map {
+  font-size:1.2em;
+  line-height: 1.4em;
 }
 
 
