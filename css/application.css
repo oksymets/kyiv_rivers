@@ -373,4 +373,19 @@ img.black-carto  {
   margin-top: 20px;
 }
 
+.underlined {
+  border-bottom: 2px solid #30d1bc;
+  box-shadow: 0 -4px 0 #30d1bc inset;
+  background: none;
+  border-radius: .25em;
+}
+
+.quay {
+  font-size: 2em;
+}
+
+.sub-slider-bg {
+  background-color: rgba(0, 0, 0, 0.3);;
+}
+
 /*# sourceMappingURL=application.css.map */
