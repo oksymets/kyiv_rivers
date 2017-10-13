@@ -380,6 +380,11 @@ img.black-carto  {
   border-radius: .25em;
 }
 
+.underlined:hover {
+  color: #383e47;
+  background-color: #30d1bc;
+}
+
 .quay {
   font-size: 2em;
 }
