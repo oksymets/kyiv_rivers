@@ -408,4 +408,11 @@ img.black-carto  {
   background-color: rgba(0, 0, 0, 0.3);;
 }
 
+.above-logo {
+  width: 100%;
+  background: white;
+  z-index: 1005;
+  position: relative
+}
+
 /*# sourceMappingURL=application.css.map */
