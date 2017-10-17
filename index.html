@@ -54,17 +54,26 @@
 <body>
 
     <!-- Fixed navbar -->
-    <div class="row logo-buttons" style="width:100%;">
-        <div class="col-lg-2 col-md-2 col-sm-2  col-xs-4">
-            <a href="http://texty.org.ua"><img class="img-responsive logo" src="img/logo.png"></a>
+    <div class="row logo-buttons" style="width:100%; position: fixed; z-index: 999">
+
+        <div style="padding-top: 19px; margin-left: 15px;">
+            <a href="http://texty.org.ua"><img class="img-responsive logo" src="img/logo.png" style="top: 19px"></a>
+            <a href="https://tsn.ua/"><img class="img-responsive logo" src="img/tsn_square.png" style="margin-left: 157px; margin-top:-4px; width:60px"></a>
         </div>
-        <div class="col-lg-1 col-lg-offset-9 col-md-1 col-md-offset-9 col-sm-2 col-sm-offset-8 col-xs-2 col-xs-offset-6">
-            <div class="social-icons">
+
+        <div class="pull-right">
+            <div class="social-icons" style="position: relative; padding-top: 7px;">
                 <a href="https://twitter.com/intent/tweet?text=http://texty.org.ua/d/kyiv_rivers/" class="share-btn"><i
                         class="fa fa-twitter fa-fw fa-2x social-tw"></i></a>
                 <a href="https://www.facebook.com/sharer/sharer.php?u=http://texty.org.ua/d/kyiv_rivers/" class="share-btn"><i
                         class="fa fa-facebook fa-fw fa-2x social-fb"></i></a>
             </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div style="width: 210px; margin-top: 90px; margin-left: 37px; color: white; position: absolute; z-index: 999;">
+            <div class="disclaimer"> Проект опубліковано одночасно виданнями Texty.org.ua та ТСН </div>
         </div>
     </div>
 
