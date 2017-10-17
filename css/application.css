@@ -318,34 +318,45 @@ img.black-carto  {
   color: white;
   background-color: rgba(0, 0, 0, 0.3);
   padding: 5px; }
-  @media (max-width: 900px) {
-    .cover-text {
-      font-size: 1.7em; } }
-  @media (max-width: 740px) {
-    .cover-text {
-      font-size: 1.5em; }
-    .top-cover h1 {
-      font-size: 3em;
-      margin-bottom: 10px;}
-    .header-text-wrapper {
-      top: 120px;  } }
-  @media (max-width: 615px) {
-    .mob-hidden {
-      display: none; }
-    .header-text-wrapper {
-      /*margin-top: 55px;*/
-      height: 50%;
-    }
-    .disclaimer {
-      display: none;
-    }
+
+@media (max-width: 900px) {
+  .cover-text {
+    font-size: 1.7em; } }
+@media (max-width: 740px) {
+  .cover-text {
+    font-size: 1.5em; }
+  .top-cover h1 {
+    font-size: 3em;
+    margin-bottom: 10px;}
+  .header-text-wrapper {
+    top: 120px;  } }
+@media (max-width: 615px) {
+  .mob-hidden {
+    display: none; }
+  .header-text-wrapper {
+    /*margin-top: 55px;*/
+    height: 50%;
+  }
+  .disclaimer {
+    display: none;
+  }
+}
+
+@media (max-width: 400px) {
+  .top-cover h1 {
+    font-size: 2em;
   }
 
-  @media (min-width: 616px) {
-    .desktop-hidden {
-      display: none;
-    }
+  .header-text-wrapper {
+    top: 70px;
   }
+}
+
+@media (min-width: 616px) {
+  .desktop-hidden {
+    display: none;
+  }
+}
 
 
 
