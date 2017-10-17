@@ -324,7 +324,7 @@ img.black-carto  {
     font-size: 1.7em; }
 
   .logo-buttons {
-    background: white;
+/*    background: white;*/
     padding-bottom: 20px;
   }
 
@@ -417,7 +417,7 @@ img.black-carto  {
 
 .above-logo {
   width: 100%;
-  /*background: white;*/
+  background: white;
   z-index: 1005;
   position: relative
 }
