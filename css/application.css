@@ -417,7 +417,7 @@ img.black-carto  {
 
 .above-logo {
   width: 100%;
-  background: white;
+  /*background: white;*/
   z-index: 1005;
   position: relative
 }
